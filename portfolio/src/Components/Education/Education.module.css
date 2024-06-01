@@ -1,0 +1,68 @@
+/* Education.module.css */
+
+.educationSection {
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.educationItemLeft,
+.educationItemRight {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  position: relative;
+}
+
+.educationItemLeft {
+  justify-content: flex-end; /* Align text to the right for left items */
+  padding-right: 50%;
+  text-align: right;
+}
+
+.educationItemRight {
+  justify-content: flex-start; /* Align text to the left for right items */
+  padding-left: 50%;
+  text-align: left;
+}
+
+.line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 2px;
+  background-color: #000;
+  height: 100%;
+}
+
+.line::before,
+.line::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.line::before {
+  top: 0; /* Adjust as needed */
+}
+
+.line::after {
+  bottom: 0; /* Adjust as needed */
+}

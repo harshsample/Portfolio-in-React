@@ -49,9 +49,14 @@ const Hero = () => {
             />
           </a>
         </div>
-        <a href="mailto:ranaharsh020@gmail.com" className={styles.contactBtn}>
-          Contact me
-        </a>
+        <div className={styles.btnGroup}>
+          <a href="mailto:ranaharsh020@gmail.com" className={styles.contactBtn}>
+            Contact me
+          </a>
+          <a href="mailto:ranaharsh020@gmail.com" className={styles.contactBtn}>
+            My Resume
+          </a>
+        </div>
       </div>
       <img
         src={getImageUrl("hero/Hero.svg")}

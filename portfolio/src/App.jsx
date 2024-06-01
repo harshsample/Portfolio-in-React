@@ -1,8 +1,10 @@
 import styles from "./App.module.css";
 import About from "./Components/AboutMe/About";
-import Card from "./Components/Card";
+
 import Education from "./Components/Education/Education";
+// import Education from "./Components/Education/Education";
 import Experience from "./Components/Experience/Experience";
+import Footer from "./Components/Footer/Footer";
 import Hero from "./Components/Introduction/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import Project from "./Components/Projects/Project";
@@ -18,7 +20,8 @@ function App() {
       <Project />
       <Experience />
       {/* <Education /> */}
-      {/* <Card /> */}
+      <Footer />
+      {/* <Education /> */}
     </div>
   );
 }
