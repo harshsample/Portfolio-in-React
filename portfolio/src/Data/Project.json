@@ -1,0 +1,23 @@
+[
+  {
+    "imageSrc": "projects/PizzaStore.png",
+    "title": "Pizza Store",
+    "descriprion": "Pizza inserts, update, Delete, and add by admin, and Users see pizzas and sort their veg and non-veg or search and order them By making payment And other functions.",
+    "TackStack": "MERN Stack",
+    "code": ""
+  },
+  {
+    "imageSrc": "projects/TripWell.png",
+    "title": "Trip Well",
+    "descriprion": "I created website for booking tours. a tour add by admin and Agent, and all the itineraries, prices, and filters are available on the website. Users can choose their tour and pay for it online. It also includes Customize Tours by the user.",
+    "TackStack": "Asp C#",
+    "code": "https://github.com/harshsample/ToursAndTravels"
+  },
+  {
+    "imageSrc": "projects/FoodZone.png",
+    "title": "Food Zone",
+    "descriprion": "I created a project on the Food Ordering system in this Project we have an Admin panel, Manager panel, and User panel. manager can add Restaurants and perform Crud on it also add Food in particular Restaurant and Admin can give Approve Restaurants. Only Approve Restaurants are displayed on the user side user can add those Foods to the cart and make orders.",
+    "TackStack": "Java EE - JNDI, EJB, JPA, CDIBean, JSF",
+    "code": "https://github.com/harshsample/Food-Ordering-System-Project"
+  }
+]

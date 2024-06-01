@@ -1,0 +1,82 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 1.75px;
+  /* text-transform: uppercase; */
+}
+
+.experience {
+  margin-top: 37px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.experience-card {
+  flex: 1 1 300px; /* Flex item grows and shrinks equally, with a maximum width of 300px */
+  max-width: 300px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.experience-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.experience-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.experience-card ul li {
+  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  .experience {
+    gap: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0; /* Reset padding for larger screens */
+  }
+
+  .title {
+    font-size: 40px; /* Increase font size for larger screens */
+  }
+
+  .experience {
+    justify-content: space-between;
+  }
+
+  .experience-card {
+    flex-basis: calc(
+      33.33% - 30px
+    ); /* Calculate flex-basis for 3 cards per row */
+    max-width: calc(33.33% - 30px);
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "title": ".Net Developer",
+    "imageSrc": "projects/project.png",
+    "company": "Otobit Private Ltd.",
+    "workAs": "Worked as Intern in .net core api",
+    "technology": "Technology : .Net core api, ssms",
+    "duration": " 8th May 2023 - 30th June 2023",
+    "description": "Worked in .net core API,  at Otobit Private Ltd developing fast APIs. Also worked on the live project."
+  },
+  {
+    "title": ".Net Developer",
+    "imageSrc": "projects/project.png",
+    "company": "Inc Infotech Private Ltd.",
+    "workAs": "Worked as backend developer in .net core api",
+    "technology": "Technology : .Net core api, ssms, React, Material UI.",
+    "duration": " 28th Jan 2024 - Present",
+    "description": "Worked in .net core API,  at Inc Infotech Private Ltd.  developing fast APIs. Also worked on the live project.Working on live Project"
+  }
+]

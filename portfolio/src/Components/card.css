@@ -1,0 +1,15 @@
+.card {
+  background-color: #171c28;
+  height: 350px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid hsla(0, 0%, 83%, 0.397);
+  border-radius: 10px;
+  box-shadow: 0 10px 30px -20px #d9dbdf;
+  transition: all 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Example of hover effect */
+  box-shadow: 0 15px 35px -15px #d9dbdf; /* Example of hover effect */
+}

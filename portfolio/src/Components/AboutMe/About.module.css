@@ -26,9 +26,26 @@
 }
 
 .aboutImage {
-  width: 35%;
+  /* width: 50%; */
+  z-index: 1;
+  animation-name: floating;
+  animation-duration: 3s;
+  border-radius: 50%;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0px, 10px);
+  }
+  100% {
+    transform: translate(0px, -0px);
+  }
+}
 .aboutItems {
   color: var(--color-text);
   display: flex;
@@ -65,9 +82,10 @@
 
 .aboutItem p {
   font-size: 19px;
+  text-align: justify;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 820px) {
   .container {
     background-color: transparent;
     padding-left: 0;

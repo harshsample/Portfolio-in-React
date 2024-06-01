@@ -7,7 +7,7 @@ const About = () => {
       <h2 className={styles.title}>About Me</h2>
       <div className={styles.content}>
         <img
-          src={getImageUrl("about/aboutImage.png")}
+          src={getImageUrl("about/AboutMe.png")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
@@ -33,7 +33,7 @@ const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
               <h3>UI Designer</h3>
               <p>
