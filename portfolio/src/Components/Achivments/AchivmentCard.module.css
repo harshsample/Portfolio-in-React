@@ -1,0 +1,70 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+  box-shadow: 0 16px 14px 0 #04152d;
+  padding: 18px 24px;
+  max-width: 345px;
+  margin: 0 auto; /* Center the container horizontally */
+  margin-bottom: 100px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add box-shadow to transition */
+}
+
+.container:hover {
+  transform: translateY(-5px); /* Move container up slightly on hover */
+  box-shadow: 0 24px 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.image {
+  width: 100%; /* Ensure image takes full width of the container */
+  max-width: 100%; /* Ensure image doesn't exceed its original size */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners */
+  margin-bottom: 20px; /* Spacing below the image */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.container:hover .image {
+  transform: scale(1.05); /* Scale image up slightly on hover */
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 600;
+  color: #fff; /* White text color */
+  margin-bottom: 10px; /* Spacing below the title */
+}
+
+.ulStyle {
+  text-align: justify;
+  color: #fff; /* White text color */
+  padding-left: 20px; /* Left padding for the list */
+}
+
+.liStyle {
+  margin-top: 6px; /* Top margin for each list item */
+}
+
+.company {
+  font-size: 20px;
+  font-weight: 100;
+  color: #fff; /* White text color */
+  margin-top: 10px; /* Top margin for the company */
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%; /* Full width on smaller screens */
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .ulStyle {
+    padding-left: 10px; /* Remove padding for list items on smaller screens */
+    text-align: left; /* Adjust text alignment for list items */
+    text-align: justify;
+  }
+}
