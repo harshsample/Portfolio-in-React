@@ -53,7 +53,11 @@ const Hero = () => {
           <a href="mailto:ranaharsh020@gmail.com" className={styles.contactBtn}>
             Contact me
           </a>
-          <a href="mailto:ranaharsh020@gmail.com" className={styles.contactBtn}>
+          <a
+            href="https://drive.google.com/file/d/1oetHD-L2tyAKZGGi0Y84dIuFZyxoc6QW/view?usp=sharing"
+            className={styles.contactBtn}
+            target="_blank"
+          >
             My Resume
           </a>
         </div>
